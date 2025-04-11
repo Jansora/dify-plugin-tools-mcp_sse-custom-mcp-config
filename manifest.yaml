@@ -1,13 +1,13 @@
 version: 0.0.8
 type: plugin
-author: junjiem
-name: mcp_sse
+author: Jansora
+name: mcp_sse_custom_mcp_config
 label:
-  en_US: MCP SSE
-  zh_Hans: MCP SSE
+  en_US: MCP SSE (Custom MCP Server Config)
+  zh_Hans: MCP SSE (Custom MCP Server Config)
 description:
   en_US: Fetch and call tools by MCP protocol through HTTP with SSE transport.
-  zh_Hans: 通过 HTTP with SSE 传输使用 MCP 协议来发现和调用工具。
+  zh_Hans: 通过 HTTP with SSE 传输使用 MCP 协议来发现和调用工具(自定义 MCP Server 配置)。
 icon: icon.png
 resource:
   memory: 268435456

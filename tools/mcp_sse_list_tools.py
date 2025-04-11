@@ -13,9 +13,11 @@ from utils.mcp_client import McpClientsUtil
 class McpSseTool(Tool):
 
     def _invoke(self, tool_parameters: dict[str, Any]) -> Generator[ToolInvokeMessage]:
-        servers_config_json = self.runtime.credentials.get("servers_config", "")
+        servers_config_json = tool_parameters.get("servers_config", "")
+        print(servers_config_json)
         if not servers_config_json:
             raise ValueError("Please fill in the servers_config")
+
         try:
             servers_config = json.loads(servers_config_json)
         except json.JSONDecodeError as e:

@@ -16,6 +16,8 @@ tools:
 extra:
   python:
     source: provider/mcp_sse.py
+
+
 credentials_for_provider:
   servers_config:
     type: text-input
