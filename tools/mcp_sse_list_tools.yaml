@@ -15,7 +15,7 @@ extra:
 
 parameters:
   - name: servers_config
-    type: text-input
+    type: string
     required: true
     label:
       en_US: MCP Servers config

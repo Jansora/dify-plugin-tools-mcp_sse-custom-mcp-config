@@ -1,6 +1,6 @@
-version: 0.0.1
+version: 0.0.1-alpha3
 type: plugin
-author: Jansora
+author: jansora
 name: mcp_sse_custom_mcp_config
 label:
   en_US: MCP SSE (Custom MCP Server Config)

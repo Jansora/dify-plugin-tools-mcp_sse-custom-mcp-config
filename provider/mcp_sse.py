@@ -23,4 +23,4 @@ class McpSseProvider(ToolProvider):
         # except Exception as e:
         #     raise ToolProviderCredentialValidationError(str(e))
 
-        return None
+        pass

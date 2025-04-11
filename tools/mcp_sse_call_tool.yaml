@@ -14,7 +14,7 @@ extra:
     source: tools/mcp_sse_call_tool.py
 parameters:
   - name: servers_config
-    type: text-input
+    type: string
     required: true
     label:
       en_US: MCP Servers config
