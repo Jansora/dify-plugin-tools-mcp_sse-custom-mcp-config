@@ -25,6 +25,7 @@ parameters:
         All other HTTP operations are controlled by `timeout`.)
       zh_Hans: MCP服务配置，支持多个MCP服务。
         （`sse_read_timeout`决定客户端在断开连接之前等待新事件的时间（以秒为单位）。所有其他HTTP操作都由`timeout`控制。）
+    form: form
   - name: tool_name
     type: string
     required: true
